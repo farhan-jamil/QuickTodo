@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* QuickTodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* QuickTodoTests.m */; };
+		04D36FC629EBF540005138EF /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 04D36FC529EBF540005138EF /* Fonts */; };
 		0C80B921A6F3F58F76C31292 /* libPods-QuickTodo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-QuickTodo.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		34A0B1AA165F406F8E0449E5 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D63954178A845049A6ED99F /* Inter-Light.ttf */; };
+		41A232BEA5DB4E57AA91F786 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F60146547E943DD930409FF /* Inter-Regular.ttf */; };
+		4CF3182A07EE495DBCE10AC3 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBD9B66A66544351801C8EDC /* Inter-Black.ttf */; };
+		539BD72E3E0F41CEB0F303C5 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 423DC29E354246B0AB8133A5 /* Inter-Bold.ttf */; };
+		5B0131A57B024A6F866951ED /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4118E2994F34FF7AF454777 /* Inter-ExtraBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-QuickTodo-QuickTodoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-QuickTodo-QuickTodoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8BC7E075AD40481EA82017F0 /* Evidance Display Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 153A2A202844436D994A771F /* Evidance Display Demo.otf */; };
+		9EE96B18C5ED42159CDCA28B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB584056B7934ADA80D0C659 /* Inter-SemiBold.ttf */; };
+		BE496B13F70E426A80CC725B /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 611E838BE0514774A2DF7EF0 /* Inter-Thin.ttf */; };
+		CDE0241D118046F3A92462E0 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC2DD117BD024AA790D96A93 /* Inter-ExtraLight.ttf */; };
+		D0BA4C8CC77248D380627E7B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29D33F3A105848539FCA6A6F /* Inter-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +41,31 @@
 		00E356EE1AD99517003FC87E /* QuickTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* QuickTodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTodoTests.m; sourceTree = "<group>"; };
+		04D36FC529EBF540005138EF /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* QuickTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QuickTodo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = QuickTodo/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = QuickTodo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QuickTodo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QuickTodo/main.m; sourceTree = "<group>"; };
+		153A2A202844436D994A771F /* Evidance Display Demo.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Evidance Display Demo.otf"; path = "../assets/fonts/Evidance Display Demo.otf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-QuickTodo-QuickTodoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickTodo-QuickTodoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D33F3A105848539FCA6A6F /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-QuickTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTodo.debug.xcconfig"; path = "Target Support Files/Pods-QuickTodo/Pods-QuickTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		3F60146547E943DD930409FF /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		423DC29E354246B0AB8133A5 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-QuickTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTodo.release.xcconfig"; path = "Target Support Files/Pods-QuickTodo/Pods-QuickTodo.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-QuickTodo-QuickTodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTodo-QuickTodoTests.debug.xcconfig"; path = "Target Support Files/Pods-QuickTodo-QuickTodoTests/Pods-QuickTodo-QuickTodoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-QuickTodo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickTodo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		611E838BE0514774A2DF7EF0 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		7D63954178A845049A6ED99F /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = QuickTodo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-QuickTodo-QuickTodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTodo-QuickTodoTests.release.xcconfig"; path = "Target Support Files/Pods-QuickTodo-QuickTodoTests/Pods-QuickTodo-QuickTodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB584056B7934ADA80D0C659 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		C4118E2994F34FF7AF454777 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FBD9B66A66544351801C8EDC /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		FC2DD117BD024AA790D96A93 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +108,7 @@
 		13B07FAE1A68108700A75B9A /* QuickTodo */ = {
 			isa = PBXGroup;
 			children = (
+				04D36FC529EBF540005138EF /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -122,6 +145,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BF85C0F66984480495E84CE5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -146,6 +170,24 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-QuickTodo-QuickTodoTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF85C0F66984480495E84CE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBD9B66A66544351801C8EDC /* Inter-Black.ttf */,
+				423DC29E354246B0AB8133A5 /* Inter-Bold.ttf */,
+				C4118E2994F34FF7AF454777 /* Inter-ExtraBold.ttf */,
+				FC2DD117BD024AA790D96A93 /* Inter-ExtraLight.ttf */,
+				7D63954178A845049A6ED99F /* Inter-Light.ttf */,
+				29D33F3A105848539FCA6A6F /* Inter-Medium.ttf */,
+				3F60146547E943DD930409FF /* Inter-Regular.ttf */,
+				AB584056B7934ADA80D0C659 /* Inter-SemiBold.ttf */,
+				611E838BE0514774A2DF7EF0 /* Inter-Thin.ttf */,
+				153A2A202844436D994A771F /* Evidance Display Demo.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +284,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D36FC629EBF540005138EF /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4CF3182A07EE495DBCE10AC3 /* Inter-Black.ttf in Resources */,
+				539BD72E3E0F41CEB0F303C5 /* Inter-Bold.ttf in Resources */,
+				5B0131A57B024A6F866951ED /* Inter-ExtraBold.ttf in Resources */,
+				CDE0241D118046F3A92462E0 /* Inter-ExtraLight.ttf in Resources */,
+				34A0B1AA165F406F8E0449E5 /* Inter-Light.ttf in Resources */,
+				D0BA4C8CC77248D380627E7B /* Inter-Medium.ttf in Resources */,
+				41A232BEA5DB4E57AA91F786 /* Inter-Regular.ttf in Resources */,
+				9EE96B18C5ED42159CDCA28B /* Inter-SemiBold.ttf in Resources */,
+				BE496B13F70E426A80CC725B /* Inter-Thin.ttf in Resources */,
+				8BC7E075AD40481EA82017F0 /* Evidance Display Demo.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
